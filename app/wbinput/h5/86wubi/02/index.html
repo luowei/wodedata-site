@@ -1,0 +1,40 @@
+<!DOCTYPE html><html lang="zh-CN" data-astro-cid-37fxchfa> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>简明教程 - WodeData</title><meta name="description" content="简明教程"><link rel="stylesheet" href="/_astro/_slug_.BbYkDfvX.css"></head> <body data-astro-cid-37fxchfa> <div class="shell" data-astro-cid-37fxchfa> <header class="site-header" data-astro-cid-37fxchfa> <div data-astro-cid-37fxchfa> <strong data-astro-cid-37fxchfa>wodedata</strong> <div style="color: var(--muted); font-size: 14px;" data-astro-cid-37fxchfa>Astro 静态站骨架</div> </div> <nav data-astro-cid-37fxchfa> <a href="/" data-astro-cid-37fxchfa>首页</a> <a href="/app/" data-astro-cid-37fxchfa>App</a> <a href="/xblog/" data-astro-cid-37fxchfa>XBlog</a> <a href="/podcast/" data-astro-cid-37fxchfa>Podcast</a> <a href="https://luowei.github.io" data-astro-cid-37fxchfa> 分享 </a><a href="https://github.com/luowei" data-astro-cid-37fxchfa> 开发 </a> </nav> </header>  <section class="panel"> <p class="eyebrow">App</p> <h1>简明教程</h1>  </section> <section class="panel"> <div><h4>86版简明教程</h4>
+<h5>字根</h5>
+<p>五笔字根是五笔输入法的基本单元，86版使用234个字根，98版使用259个字根，新世纪版使用了226个字根。</p>
+<h5>86五笔字根表</h5>
+<p>![]({{ site.cdn.app }}/mp4/wbinput/images/keyboard/01_a.png)</p>
+<p><strong>五笔中的汉字结构及字型</strong></p>
+<p>在五笔中，汉字分为左右型、上下型和杂合型汉字。凡是分不清上下左右结构的就是杂合型。</p>
+<h5>汉字的笔画</h5>
+<p>五笔字型把汉字笔画分成五种，对应键盘上的五个区：横（提）、竖（左竖钩）、撇、捺（点）、折（右竖钩）五种。</p>
+<h5>单字输入规则</h5>
+<p><strong>大多数汉字的基本输入规则</strong></p>
+<p>能拆分为两个码元的字：第一码元 + 第二码元 + 空格</p>
+<p>如“明”字，拆分为“日”和“月”两个码元打&quot;JE &quot;</p>
+<p>能拆分为三个码元的字：第一码元 + 第二码元 + 第三码元 + 空格</p>
+<p>如“些”字，拆分为“止”“匕”“二”打&quot;HXF &quot;</p>
+<p>能拆分为四个码元的字：第一码元 + 第二码元 + 第三码元 + 第四码元</p>
+<p>如“命”字，拆分为“人”“一”“口”“卩”打&quot;WGKB&quot;</p>
+<p>拆分超过四个码元的字：第一码元 + 第二码元 + 第三码元 + 最末码元</p>
+<p>如“厨”字，拆分为“厂”“一”“口”和最后一个码元“寸”打&quot;DGKF&quot;</p>
+<p><strong>键面上汉字的输入规则</strong></p>
+<p>键面上第一个码元（键左上角）：把所在键连打四下，例如：“土”字就是打四下F，即FFFF。</p>
+<p>成字码元（第一个之外的）的输入规则: 所在键 + 第一单笔画 + 第二单笔画 + 最末单笔画，例如“雨”字，先打F（打“雨”字所在的键），然后再打“一”“|”“丶”三个单笔画所在的键，所以“雨”字的编码就是FGHY</p>
+<p>举例：“士”拆分为“一”“|”“一”编码为：FGHG。 “文” 拆分为 “丶” “一” “丶” 编码为：YYGY</p>
+<p><strong>识别码字</strong></p>
+<p>五笔为了减少重码，先打完码元，可以再追加一个“末笔字型识别码”，简称“识别码”。识别码由字的结构类型和最后一笔的笔划决定。</p>
+<p>有些汉字按基本规则打完码元以后还不能出来，这时识别码就是必须的了。</p>
+<p>| -------- | ------- | -------- | -------- | -------- | -------- | | 结构\末笔	| 横（一） | 竖（丨）	| 撇（丿）	| 捺（丶）	| 折（乙）   | | 左右型	| G	      | H        |  T       |   Y      |    N     | | 上下型	| F	      | J        |  R       |   U      |    B     | | 杂合型	| D	      | K        |  E       |   I      |    V     |</p>
+<p>举例：“好”的码元是“女”和“子”，分别对应VB两个键。它是左右型，最后一笔是横，所以识别码是G。完整的编码就是VBG。</p>
+<h5>词组输入规则</h5>
+<p><strong>双字词</strong></p>
+<p>取第一字的前两位编码和第二字的前两位编码，如“北”（UXN）+“京”（YIU）=“北京”（UXYI）</p>
+<p><strong>三字词</strong></p>
+<p>取第一字的第一位编码，第二位的第一位编码，第三字的前两位编码，如“毛”（TFNV）+“泽”（ICFH）+“东”（AII）=“毛泽东”（TIAI）</p>
+<p><strong>四字词</strong></p>
+<p>取每一个字的第一位编码，如“发”（NTCY）+“奋”（DLF）+“图”（LTUI）+“强”（XKJY）=“发奋图强”（NDLX）</p>
+<p><strong>多字词</strong></p>
+<p>取一、二、三、末字的第一位编码，如“共”（AWU）＋“产”（UTE）＋“主”（YGD）＋“义”（YQI）＋“社”（PYFG）＋“会”（WFCU）＝共产主义社会（AUYW）</p>
+<p><strong>简码字</strong></p>
+<p>一些较常用字可以用一、二或三字母编码打出，分别称为一、二、三级简码。</p>
+<p>一级简码包含汉语最常用字中的25个，为了尽可能全面地安排最常用的汉字，部分一级简码并非是该字全码的首位。但所有的二级或三级简码均为该字全码的前二或三位。</p></div> </section>  </div> </body></html>

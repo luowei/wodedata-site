@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>WodeData Podcast</title>
+    <link>https://wodedata.com</link>
+    <description>WodeData 的播客内容输出，聚焦应用开发、技术实践、产品思考与数字内容创作。</description>
+    <language>zh-cn</language>
+    <itunes:author>luowei</itunes:author>
+    <itunes:summary>WodeData Podcast 主要围绕应用开发、输入法产品、工具实践、技术思考与数字内容创作展开，用音频形式输出项目记录与经验总结。</itunes:summary>
+    <itunes:subtitle>应用开发、技术实践与数字内容创作</itunes:subtitle>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:category text="Technology"><itunes:category text="Software How-To" /></itunes:category>
+    <itunes:category text="Technology"><itunes:category text="Tech News" /></itunes:category>
+    <itunes:owner><itunes:name>luowei</itunes:name><itunes:email>luowei@wodedata.com</itunes:email></itunes:owner>
+    <itunes:image href="/app/assets_app/favor.png" />
+    <item>
+      <title>Episode Title Goes Here</title>
+      <link>https://wodedata.com/podcast/episode-title-goes-here/</link>
+      <guid isPermaLink="false">?p=866</guid>
+      <pubDate>Tue, 20 Oct 2015 00:00:00 GMT</pubDate>
+      <description>This is podcast post Hello worldd podcast.....</description>
+      <itunes:summary>This is podcast post Hello worldd podcast.....</itunes:summary>
+      <itunes:duration>14:02</itunes:duration>
+      <enclosure url="http://traffic.libsyn.com/podcast/filename.mp3" length="13654375" type="audio/mpeg" />
+    </item>
+  </channel>
+</rss>
