@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>WodeData Podcast</title>
+    <link>https://wodedata.com</link>
+    <description>WodeData 的播客内容输出，聚焦应用开发、技术实践、产品思考与数字内容创作。</description>
+    <language>zh-cn</language>
+    <itunes:author>luowei</itunes:author>
+    <itunes:summary>WodeData Podcast 主要围绕应用开发、输入法产品、工具实践、技术思考与数字内容创作展开，用音频形式输出项目记录与经验总结。</itunes:summary>
+    <itunes:subtitle>应用开发、技术实践与数字内容创作</itunes:subtitle>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:category text="Technology"><itunes:category text="Software How-To" /></itunes:category>
+    <itunes:category text="Technology"><itunes:category text="Tech News" /></itunes:category>
+    <itunes:owner><itunes:name>luowei</itunes:name><itunes:email>luowei@wodedata.com</itunes:email></itunes:owner>
+    <itunes:image href="/app/assets_app/favor.png" />
+    <item>
+      <title>我的名字叫依莲</title>
+      <link>https://wodedata.com/podcast/The%20first%20episode-music/</link>
+      <guid isPermaLink="false">?p=866</guid>
+      <pubDate>Tue, 20 Oct 2015 00:00:00 GMT</pubDate>
+      <description>我的名字叫依莲, 纯享音乐，美妙自然！</description>
+      <itunes:summary>我的名字叫依莲, 纯享音乐，美妙自然！</itunes:summary>
+      <itunes:image href="https://lwmedia.oss-cn-hangzhou.aliyuncs.com/podcast/cover/2026/04/episode-title-goes-here-19fff11b538e1d44.png" />
+      <itunes:duration>14:02</itunes:duration>
+      <enclosure url="https://lwmedia.oss-cn-hangzhou.aliyuncs.com/podcast/audio/2026/04/episode-title-goes-here-cc188236b22714d4.m4a" length="13654375" type="audio/mpeg" />
+    </item>
+  </channel>
+</rss>

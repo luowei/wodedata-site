@@ -1,0 +1,48 @@
+{
+  "data": [
+    {
+      "开始使用万能输入法":[
+        {"添加万能输入法||tianjia":"LWInputMethod://home.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2fwonderkibod%2fh5%2f01_add_keyboard"},
+        {"开启完全访问权限||kaiqi":"LWInputMethod://home.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2fwonderkibod%2fh5%2f02_open_fullaccess"},
+        {"切换到万能输入法||qiehuan":"LWInputMethod://home.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2fwonderkibod%2fh5%2f03_switch_keyboard"},
+        {"有用的小技巧||gonnen":"LWInputMethod://home.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2fwonderkibod%2fh5%2f04_useful_operations"}
+      ]
+    },
+    {
+      "万能小工具":[
+        {"MarkDown||mark":"LWInputMethod://home.app_markdown"},
+        {"涂鸦||huaban":"LWInputMethod://home.app_drawboard"},
+        {"汉字转拼音||pingying":"LWInputMethod://home.app_convertpinyin"},
+        {"汉字转火星文||hongxing":"LWInputMethod://home.app_convertmars"},
+        {"简转繁||zhuanhuan":"LWInputMethod://home.app_converttraditional"},
+        {"翻译||fanyi":"LWInputMethod://home.app_translate"},
+        {"书法字典||shufa":"LWInputMethod://home.http?url=http%3a%2f%2fzd.shufa99.com"},
+        {"百度汉语||bijiben":"LWInputMethod://home.http?url=http%3a%2f%2fhanyu.baidu.com"}
+      ]
+    },
+    {
+      "指南 - 特色功能": [
+        {"火星文输入||itemicon_9":"LWInputMethod://home.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2fwonderkibod%2fh5%2f05_mars_word"},
+        {"繁体实时转换||itemicon_4":"LWInputMethod://home.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2fwonderkibod%2fh5%2f06_traditional_word"},
+        {"快捷涂鸦画板||itemicon_6":"LWInputMethod://home.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2fwonderkibod%2fh5%2f10_draw_doodle"},
+        {"朋友圈不折叠输入||itemicon_0":"LWInputMethod://home.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2fwonderkibod%2fh5%2f07_paste_input"},
+        {"自定义皮肤||itemicon_7":"LWInputMethod://home.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2fwonderkibod%2fh5%2f08_custom_skin"},
+        {"自定义皮肤子模块||itemicon_8":"LWInputMethod://home.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2fwonderkibod%2fh5%2f09_custom_style"},
+        {"快捷套路模板||itemicon_2":"LWInputMethod://home.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2fwonderkibod%2fh5%2f11_template_input"},
+        {"加密输入||itemicon_3":"LWInputMethod://home.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2fwonderkibod%2fh5%2f12_secret_input"},
+        {"内容搜索与分享||itemicon_5":"LWInputMethod://home.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2fwonderkibod%2fh5%2f14_web_share"},
+        {"斗图收藏||itemicon_1":"LWInputMethod://home.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2fwonderkibod%2fh5%2f13_gif_collect"},
+        {"截图分享||itemicon_10":"LWInputMethod://home.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2fwonderkibod%2fh5%2f15_snapshot"}
+      ]
+    }
+  ],
+  "mobileconfig": {
+    "drawboard": "http://app.wodedata.com/wonderkibod/mobileconfig/add_drawboard.php",
+    "genqrcode": "http://app.wodedata.com/wonderkibod/mobileconfig/add_genqrcode.php",
+    "scanqrcode": "http://app.wodedata.com/wonderkibod/mobileconfig/add_scanqrcode.php",
+    "convertpinyin": "http://app.wodedata.com/wonderkibod/mobileconfig/add_convertpinyin.php",
+    "translate": "http://app.wodedata.com/wonderkibod/mobileconfig/add_translate.php",
+    "shufa": "http://app.wodedata.com/wonderkibod/mobileconfig/add_shufa.php",
+    "hanyu": "http://app.wodedata.com/wonderkibod/mobileconfig/add_hanyu.php"
+  }
+}

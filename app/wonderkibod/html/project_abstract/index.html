@@ -1,0 +1,345 @@
+<!DOCTYPE html><html lang="zh-CN"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>万能输入法的技术要点 - WodeData</title><meta name="description" content="万能输入法的技术要点"><meta name="robots" content="index,follow"><meta name="keywords" content="wodedata, 万能输入法"><meta name="apple-itunes-app" content="app-id=1227288468, app-argument=https://wodedata.com/app/wonderkibod/html/project_abstract/"><link rel="canonical" href="https://wodedata.com/wodedata-site/app/wonderkibod/html/project_abstract/"><meta property="og:type" content="website"><meta property="og:title" content="万能输入法的技术要点 - WodeData"><meta property="og:description" content="万能输入法的技术要点"><meta property="og:url" content="https://wodedata.com/wodedata-site/app/wonderkibod/html/project_abstract/"><meta property="og:site_name" content="wodedata"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="万能输入法的技术要点 - WodeData"><meta name="twitter:description" content="万能输入法的技术要点"><style>.wd-app-navbar[data-astro-cid-up7jqppx]{position:fixed;top:0;right:0;left:0;z-index:1030;border-radius:0;background:#1f1915;box-shadow:0 1px #ffffff14}.wd-app-navbar__brand[data-astro-cid-up7jqppx],.wd-app-navbar__brand[data-astro-cid-up7jqppx]:hover,.wd-app-navbar__brand[data-astro-cid-up7jqppx]:focus{color:#fff}.wd-app-navbar__items[data-astro-cid-up7jqppx]>li[data-astro-cid-up7jqppx]>a[data-astro-cid-up7jqppx]{box-sizing:border-box;color:#888;border-bottom:3px solid transparent;background:transparent}.wd-app-navbar__items[data-astro-cid-up7jqppx]>li[data-astro-cid-up7jqppx].uk-active>a[data-astro-cid-up7jqppx],.wd-app-navbar__items[data-astro-cid-up7jqppx]>li[data-astro-cid-up7jqppx]>a[data-astro-cid-up7jqppx]:hover,.wd-app-navbar__items[data-astro-cid-up7jqppx]>li[data-astro-cid-up7jqppx]>a[data-astro-cid-up7jqppx]:focus{color:#fff;background:transparent}.wd-app-navbar__items[data-astro-cid-up7jqppx]>li[data-astro-cid-up7jqppx].uk-active>a[data-astro-cid-up7jqppx]{border-bottom-color:#fff;font-weight:700}.wd-app-navbar__items[data-astro-cid-up7jqppx]>li[data-astro-cid-up7jqppx].uk-active>a[data-astro-cid-up7jqppx]:hover,.wd-app-navbar__items[data-astro-cid-up7jqppx]>li[data-astro-cid-up7jqppx].uk-active>a[data-astro-cid-up7jqppx]:focus{background:transparent}.wd-app-navbar__toggle[data-astro-cid-up7jqppx]{display:block;box-sizing:border-box;width:38px;height:28px;margin:6px 3px;padding:0;border:1px solid rgba(255,255,255,.1);border-radius:4px;background:#ffffff14;color:#888;cursor:pointer;transition:background-color .18s ease,border-color .18s ease,color .18s ease}.wd-app-navbar__toggle[data-astro-cid-up7jqppx]:hover,.wd-app-navbar__toggle[data-astro-cid-up7jqppx]:focus{border-color:#fff3;background:#ffffff29;color:#fff;outline:none}.wd-app-navbar__toggle-icon[data-astro-cid-up7jqppx]:before{display:block;font-size:22px;font-weight:700;line-height:26px;content:">"}.wd-app-navbar[data-astro-cid-up7jqppx].is-collapsed .wd-app-navbar__toggle-icon[data-astro-cid-up7jqppx]:before{content:"<"}.wd-app-navbar[data-astro-cid-up7jqppx].is-collapsed .wd-app-navbar__item[data-astro-cid-up7jqppx]{display:none}.wd-app-navbar__mobile-toggle[data-astro-cid-up7jqppx],.wd-app-navbar__mobile-toggle[data-astro-cid-up7jqppx]:hover,.wd-app-navbar__mobile-toggle[data-astro-cid-up7jqppx]:focus{color:#888}
+@media(min-width:768px){.wdapp-footer[data-astro-cid-ybh2bxt7]{padding-top:60px;padding-bottom:60px}}body{margin:0;background:#fff}.container[data-astro-cid-ea56lfqw]{max-width:960px;margin:0 auto;padding:16px 18px 40px;box-sizing:border-box}img[data-astro-cid-ea56lfqw],video[data-astro-cid-ea56lfqw]{max-width:100%;height:auto}video[data-astro-cid-ea56lfqw]{display:block;margin:0 auto}
+</style>
+<link rel="stylesheet" href="/wodedata-site/_astro/_slug_.7bWxXePX.css"></head> <body>   <div class="shell" data-astro-cid-mzsav3am> <header class="site-header" data-astro-cid-mzsav3am> <a class="site-header__brand" href="/wodedata-site/" data-astro-cid-mzsav3am><strong data-astro-cid-mzsav3am>wodedata</strong></a> <nav data-astro-cid-mzsav3am> <a href="/wodedata-site/app/" data-astro-cid-mzsav3am> App </a><a href="/wodedata-site/xblog/" data-astro-cid-mzsav3am> 分享 </a><a href="https://github.com/luowei" target="_blank" rel="noreferrer" data-astro-cid-mzsav3am> 开发 </a><a href="#contact" data-astro-cid-mzsav3am> 联系我们 </a> </nav> </header>  <section class="panel"> <p class="eyebrow">WonderKibod Architecture</p> <h1>万能输入法的技术要点</h1> <p>iOS基础集合类: https://github.com/ming1016/study/wiki/iOS%E5%9F%BA%E7%A1%80%E9%9B%86%E5%90%88%E7%B1%BB</p> <div class="hero-actions"> <a href="/wodedata-site/app/wonderkibod/">返回万能输入法入口</a> <a href="/wodedata-site/app/wonderkibod/h5/other/02_key_tech/">查看新版技术说明</a> </div> </section> <section class="panel"> <p class="eyebrow">Outline</p> <h2>章节索引</h2> <div class="simple-grid"> <a class="simple-card app-card" href="#project-abstract-section-1"> <h3>技术参考:</h3> <p>iOS基础集合类: https://github.com/ming1016/study/wiki/iOS%E5%9F%BA%E7%A1%80%E9%9B%86%E5%90%88%E7%B1%BB iOS-Core-Animation-Advanced-Techniques: http://www.cocoachina.</p> </a><a class="simple-card app-card" href="#project-abstract-section-2"> <h3>资源参考：</h3> <p>特殊符号: Unicode字符: https://en.wikipedia.org/wiki/Category:Unicode 特殊表情: getEmoji: http://getemoji.com/ Unicode/List of useful symbols: https://en.wikibooks.org/wi</p> </a><a class="simple-card app-card" href="#project-abstract-section-3"> <h3>实现的功能需求点</h3> <p>键盘Extension Part 1 1. 自定义皮肤,按键样式设置完善及数据存储整理； 2. 四种常规键盘(拼音全键,拼音九键,五笔全键,笔画全键)之间切换，上滑手势输入，字符键按提示窗； 3. 添加符号键盘(类似百度的符号键盘-CollectionView)； 4. 五种特殊键盘(快捷短语/emoji/emotic</p> </a><a class="simple-card app-card" href="#project-abstract-section-4"> <h3>后续优化需求点</h3> <p>键盘Extension 1. 动画的添加； 2. 边缘上滑展开、下滑折叠手势； 3. 英文常用url词库补全； 4. 点击统计； 工具栏按钮长按响应规则 1. logo长按弹起聊天窗； 2. 光标滑动的长按弹出搜索栏； 3. 收起键盘键长按拼音转换； 主App 1. 小工具喝水提醒； 2. 小工具语音备忘每日一记； 3</p> </a><a class="simple-card app-card" href="#project-abstract-section-5"> <h3>部分API分享</h3> <p>百度翻译API http://api.fanyi.baidu.com/api/trans/product/desktop?req=developer 网易云音乐分析 搜索歌曲 curl --request POST \ - -url http: / /music.163.com/api /search/get \ - </p> </a><a class="simple-card app-card" href="#project-abstract-section-6"> <h3>mac输入法相关资料</h3> <p>OpenVanilla 輸入法套件 OpenVanilla輸入法框架官网 Input Method Kit Framework Reference NumberInput_IMKit_Sample Apple’s NumberInput sample code with each ‘step’ commit Input</p> </a><a class="simple-card app-card" href="#project-abstract-section-7"> <h3>其他</h3> <p>Google Cloud Platform https://cloud.google.com/appengine/docs/python/endpoints/consume_ios#adding_a_sign-in_dialog_to_your_ios_client 百度汉语： http://hanyu.baidu.c</p> </a> </div> </section> <section class="panel" id="project-abstract-section-1"> <p class="eyebrow">Section 1</p> <h2>技术参考:</h2> <div><p>iOS基础集合类:<a href="https://github.com/ming1016/study/wiki/iOS%E5%9F%BA%E7%A1%80%E9%9B%86%E5%90%88%E7%B1%BB">https://github.com/ming1016/study/wiki/iOS%E5%9F%BA%E7%A1%80%E9%9B%86%E5%90%88%E7%B1%BB</a></p>
+
+<p>iOS-Core-Animation-Advanced-Techniques:<a href="http://www.cocoachina.com/ios/20150104/10814.html">http://www.cocoachina.com/ios/20150104/10814.html</a></p>
+
+<p>自定义控件:<a href="http://objccn.io/issue-3-4/">http://objccn.io/issue-3-4/</a></p>
+
+<p>How To Make a Custom Control:<a href="http://www.raywenderlich.com/36288/how-to-make-a-custom-control">http://www.raywenderlich.com/36288/how-to-make-a-custom-control</a></p>
+
+<p>AutoLayoutDemo:<a href="https://github.com/yechunjun/AutoLayoutDemo">https://github.com/yechunjun/AutoLayoutDemo</a></p>
+
+<p>先进的自动布局工具箱:<a href="http://objccn.io/issue-3-5/">http://objccn.io/issue-3-5/</a></p>
+
+<p>细数AutoLayout以来UIView和UIViewController新增的相关API:<a href="http://chun.tips/blog/2014/10/23/xi-shu-autolayoutyi-lai-uiviewhe-uiviewcontrollerxin-zeng-de-xiang-guan-api-uiviewpian/">http://chun.tips/blog/2014/10/23/xi-shu-autolayoutyi-lai-uiviewhe-uiviewcontrollerxin-zeng-de-xiang-guan-api-uiviewpian/</a></p>
+
+<p>自动布局（autolayout）环境下图片编辑器的实现:<a href="http://blog.csdn.net/lihuiqwertyuiop/article/details/40015521">http://blog.csdn.net/lihuiqwertyuiop/article/details/40015521</a></p>
+
+<p>iOS界面开发的大一统:<a href="http://onevcat.com/2014/07/ios-ui-unique/">http://onevcat.com/2014/07/ios-ui-unique/</a></p>
+
+<p>How can I set image in textDocumentProxy with custom keyboard extension iOS 8?:<a href="http://stackoverflow.com/questions/28630338/how-can-i-set-image-in-textdocumentproxy-with-custom-keyboard-extension-ios-8">http://stackoverflow.com/questions/28630338/how-can-i-set-image-in-textdocumentproxy-with-custom-keyboard-extension-ios-8</a></p>
+
+<p>iOS-Headers私有API:<a href="https://github.com/MP0w/iOS-Headers">https://github.com/MP0w/iOS-Headers</a></p>
+
+<p>Undo typing in UITextView:<a href="http://stackoverflow.com/questions/1991897/undo-typing-in-uitextview">http://stackoverflow.com/questions/1991897/undo-typing-in-uitextview</a></p>
+
+<p>Undo/redo with a UITextView:<a href="http://stackoverflow.com/questions/4070291/undo-redo-with-a-uitextview-ios-iphone/4071681#4071681">http://stackoverflow.com/questions/4070291/undo-redo-with-a-uitextview-ios-iphone/4071681#4071681</a></p>
+
+<p>Designing for iOS - Taming UIButton:<a href="https://robots.thoughtbot.com/designing-for-ios-taming-uibutton">https://robots.thoughtbot.com/designing-for-ios-taming-uibutton</a></p>
+
+<p>加密你的SQLite:<a href="http://foggry.com/blog/2014/05/19/jia-mi-ni-de-sqlite">http://foggry.com/blog/2014/05/19/jia-mi-ni-de-sqlite</a></p>
+
+<p>纯UILabel实现文字的竖排显示:<a href="http://humin.me/archives/68">http://humin.me/archives/68</a></p>
+
+<p>make a vertical text UILabel and UITextView for iOS:<a href="http://stackoverflow.com/questions/28544714/how-do-you-make-a-vertical-text-uilabel-and-uitextview-for-ios-in-swift">http://stackoverflow.com/questions/28544714/how-do-you-make-a-vertical-text-uilabel-and-uitextview-for-ios-in-swift</a></p>
+
+<p>Vertical-Text-iOS:<a href="https://github.com/sangonz/Vertical-Text-iOS">https://github.com/sangonz/Vertical-Text-iOS</a></p>
+
+<p>Method Swizzling 和 AOP 实践:<a href="http://tech.glowing.com/cn/method-swizzling-aop/">http://tech.glowing.com/cn/method-swizzling-aop/</a></p></div> </section><section class="panel" id="project-abstract-section-2"> <p class="eyebrow">Section 2</p> <h2>资源参考：</h2> <div><h3 id="特殊符号">特殊符号:</h3>
+
+<p>Unicode字符:<a href="https://en.wikipedia.org/wiki/Category:Unicode">https://en.wikipedia.org/wiki/Category:Unicode</a></p>
+
+
+
+<h3 id="特殊表情">特殊表情:</h3>
+
+<p>getEmoji:<a href="http://getemoji.com/">http://getemoji.com/</a></p>
+
+<p>Unicode/List of useful symbols:<a href="https://en.wikibooks.org/wiki/Unicode/List_of_useful_symbols">https://en.wikibooks.org/wiki/Unicode/List_of_useful_symbols</a></p>
+
+<p>Emoji Unicode Tables:<a href="http://apps.timwhitlock.info/emoji/tables/unicode">http://apps.timwhitlock.info/emoji/tables/unicode</a></p>
+
+
+
+<h3 id="词库">词库</h3>
+
+<p>五笔编码词库:<a href="https://github.com/ishitcno1/googleInputWubiTable">https://github.com/ishitcno1/googleInputWubiTable</a></p>
+
+
+
+<h3 id="汉字转拼音">汉字转拼音:</h3>
+
+<p><a href="https://github.com/jifei/Pinyin/">https://github.com/jifei/Pinyin/</a></p>
+
+<p><a href="https://github.com/cleverdeng/pinyin.py">https://github.com/cleverdeng/pinyin.py</a></p>
+
+
+
+<h3 id="手写识别">手写识别：</h3>
+
+<p>一个iOS版的基于zinnia的手写汉字识别:<a href="https://github.com/Crazylitm/HZRC">https://github.com/Crazylitm/HZRC</a></p></div> </section><section class="panel" id="project-abstract-section-3"> <p class="eyebrow">Section 3</p> <h2>实现的功能需求点</h2> <div><h3 id="键盘extension">键盘Extension</h3>
+
+<p><strong>Part 1</strong></p>
+
+
+
+<pre class="prettyprint"><code class=" hljs markdown"><span class="hljs-bullet">1. </span>自定义皮肤,按键样式设置完善及数据存储整理；
+<span class="hljs-bullet">2. </span>四种常规键盘(拼音全键,拼音九键,五笔全键,笔画全键)之间切换，上滑手势输入，字符键按提示窗；
+<span class="hljs-bullet">3. </span>添加符号键盘(类似百度的符号键盘-CollectionView)；
+<span class="hljs-bullet">4. </span>五种特殊键盘(快捷短语/emoji/emoticon/图片表情/符号键盘)
+<span class="hljs-code">    1. 数据源统一改成plist文件存储;</span>
+<span class="hljs-code">    2. 添加常用分类并存储到对应plist文件；</span>
+<span class="hljs-code">    3. 排序的优化；</span>
+<span class="hljs-bullet">5. </span>主设置界面修改及存储；
+<span class="hljs-bullet">6. </span>输入候选区的添加；
+<span class="hljs-bullet">7. </span>英文补全；
+<span class="hljs-bullet">8. </span>繁简转换；
+<span class="hljs-bullet">9. </span>火星文字转换；
+<span class="hljs-bullet">10. </span>拼音全键输入实现；
+<span class="hljs-bullet">11. </span>拼音九键输入实现；
+<span class="hljs-bullet">12. </span>五笔全键输入实现；
+<span class="hljs-bullet">13. </span>笔画全键输入实现；
+<span class="hljs-bullet">14. </span>输入加入联想联系人逻辑；
+<span class="hljs-bullet">15. </span>九种键盘的删除键/空格键长按输入；
+<span class="hljs-bullet">16. </span>横竖屏优化,剪粘板,按键音处理；
+<span class="hljs-bullet">17. </span>图片表情的社会化分享的集成；
+<span class="hljs-bullet">18. </span>主题的添加/设置/选择；</code></pre>
+
+<p><strong>Part 2(已完成)</strong></p>
+
+
+
+<pre class="prettyprint"><code class=" hljs markdown"><span class="hljs-bullet">1. </span>修改样式及时生效,及皮肤设置长按恢复默认样式；
+<span class="hljs-bullet">2. </span>许多不使用键盘默认变为拼音全键盘bug；
+<span class="hljs-bullet">3. </span>enter键长按：换行功能；
+<span class="hljs-bullet">4. </span>切换键盘或地球键长按/短按 - 英文输入词上屏；
+<span class="hljs-bullet">5. </span>五笔一/二/三/四级简码词频设置；
+<span class="hljs-bullet">6. </span>自定义添加大图片表情；
+<span class="hljs-bullet">7. </span>加载图片选择器时，释放词库；
+<span class="hljs-bullet">8. </span>自定义短语添加(主App)；
+<span class="hljs-bullet">9. </span>默认主题；
+<span class="hljs-bullet">10. </span>搜索：百度及网易云音乐；(入口：光标滑动的长按弹出搜索栏；logo菜单；地球键；)
+<span class="hljs-bullet">11. </span>涂鸦：(入口：表情长按；logo菜单；地球键；)
+<span class="hljs-bullet">12. </span>翻译:(入口：搜索工具栏上翻译按钮；logo菜单；地球键)
+<span class="hljs-bullet">13. </span>联系人名片：(入口：快捷短语添加一个分类按钮，logo菜单)
+<span class="hljs-bullet">14. </span>拼音注音转换：(入口：logo菜单；收起键盘键长按)
+<span class="hljs-bullet">15. </span>密文处理：(入口：表情长按)
+<span class="hljs-bullet">16. </span>相册、联系人选择：(入口：搜索弹窗；logo菜单)；
+<span class="hljs-bullet">17. </span>手写输入(通过使用在线web api方式实现)；
+<span class="hljs-bullet">18. </span>添加快捷短语及分类；
+<span class="hljs-bullet">19. </span>图片表情的添加及分类；</code></pre>
+
+<p><strong>Part 3(已完成)</strong></p>
+
+
+
+<pre class="prettyprint"><code class=" hljs markdown"><span class="hljs-bullet">1. </span>长按加密聊天；
+<span class="hljs-bullet">2. </span>直接http url -&gt; 打开web页，刷新、分享、收藏下载图片，Safari打开；
+<span class="hljs-bullet">3. </span>毛笔书写；
+<span class="hljs-bullet">4. </span>GIF分类搜索；
+<span class="hljs-bullet">5. </span>样式设置顺序调整；
+<span class="hljs-bullet">6. </span>表情分类顺序调整、可编辑；
+<span class="hljs-bullet">7. </span>手写板遮罩层；
+<span class="hljs-bullet">8. </span>Web的404页面及弹窗处理；
+<span class="hljs-bullet">9. </span>键间距配置；
+<span class="hljs-bullet">10. </span>音乐搜索限制；
+<span class="hljs-bullet">11. </span>分享面板QQ，微信是否安装检查；
+<span class="hljs-bullet">12. </span>sqlite加密；
+<span class="hljs-bullet">13. </span>背景色与PopView颜色互换，搜索、翻译、拼音背景色调整；
+<span class="hljs-bullet">14. </span>保存到相册权限判断，翻译模式下，长按候选词逻辑；
+<span class="hljs-bullet">15. </span>符号及表情类型最近使用的分类记忆；
+<span class="hljs-bullet">16. </span>二维码截图分享默认截取区域修改；
+<span class="hljs-bullet">17. </span>服务端增加禁用开关；
+<span class="hljs-bullet">18. </span>网络不通时打开Web搜索阻塞主UI;
+<span class="hljs-bullet">19. </span>九宫格拼音更多候选词展示问题；
+<span class="hljs-bullet">20. </span>资源本地化及主App数据网络请求；</code></pre>
+
+<p><strong>主App(已完成)</strong></p>
+
+
+
+<pre class="prettyprint"><code class=" hljs markdown"><span class="hljs-bullet">1. </span>输入法教程Guide；
+<span class="hljs-bullet">2. </span>五笔输入指南(百度文库资料)：
+<span class="hljs-code">    1. 五笔字根表；</span>
+<span class="hljs-code">    2. 五笔各级简码指南；(https://wenku.baidu.com/view/42504df17c1cfad6195fa7c5.html)</span>
+<span class="hljs-code">    3. 特殊词编码分类；</span>
+<span class="hljs-bullet">3. </span>笔划输入指南:https://wenku.baidu.com/view/f53654286edb6f1aff001f3b.html
+<span class="hljs-bullet">4. </span>背景图模糊度调节；
+<span class="hljs-bullet">5. </span>关于&amp;源码；
+<span class="hljs-bullet">6. </span>主App无网络的情况下的处理；
+<span class="hljs-bullet">7. </span>首页中部Logo文字用物理摔子替代；
+<span class="hljs-bullet">8. </span>WKWebView 404页面问题修改；
+<span class="hljs-bullet">9. </span>完善App画板；
+<span class="hljs-bullet">10. </span>主App图片增加保存,Detail页增加分享,跳safari,同样键盘网页都可跳过来；
+<span class="hljs-bullet">11. </span>留言反馈；
+<span class="hljs-bullet">12. </span>小工具Google Web 翻译；
+<span class="hljs-bullet">13. </span>小工具Baidu原生页翻译；
+<span class="hljs-bullet">14. </span>小工具拼音转换；
+<span class="hljs-bullet">15. </span>二维码生成器；
+<span class="hljs-bullet">16. </span>小工具二维码扫描及生成；
+<span class="hljs-bullet">17. </span>远程推送打开指定落地页；
+<span class="hljs-bullet">18. </span>小工具建桌面快捷方式；
+<span class="hljs-bullet">19. </span>小工具App高级涂鸭板与键盘涂鸭关联映射；
+<span class="hljs-bullet">20. </span>主App分享加入微博，分享标识为万能输入法App；
+<span class="hljs-bullet">21. </span>第三方应用打开网页直接跳到App对应页或提示安装。
+<span class="hljs-bullet">22. </span>打包记得把几个库改用为Release版本的；
+<span class="hljs-bullet">23. </span>分享：微信好友、收藏、朋友圈、QQ、系统、Safari打开；</code></pre></div> </section><section class="panel" id="project-abstract-section-4"> <p class="eyebrow">Section 4</p> <h2>后续优化需求点</h2> <div><p><strong>键盘Extension</strong></p>
+
+
+
+<pre class="prettyprint"><code class=" hljs markdown"><span class="hljs-bullet">1. </span>动画的添加；
+<span class="hljs-bullet">2. </span>边缘上滑展开、下滑折叠手势；
+<span class="hljs-bullet">3. </span>英文常用url词库补全；
+<span class="hljs-bullet">4. </span>点击统计；</code></pre>
+
+<p><strong>工具栏按钮长按响应规则</strong></p>
+
+
+
+<pre class="prettyprint"><code class=" hljs markdown"><span class="hljs-bullet">1. </span>logo长按弹起聊天窗；
+<span class="hljs-bullet">2. </span>光标滑动的长按弹出搜索栏；
+<span class="hljs-bullet">3. </span>收起键盘键长按拼音转换；</code></pre>
+
+<p><strong>主App</strong></p>
+
+
+
+<pre class="prettyprint"><code class=" hljs markdown"><span class="hljs-bullet">1. </span>小工具喝水提醒；
+<span class="hljs-bullet">2. </span>小工具语音备忘每日一记；
+<span class="hljs-bullet">3. </span>小工具卡密管理,sqlite；
+<span class="hljs-bullet">4. </span>小工具音乐播放；
+<span class="hljs-bullet">5. </span>小工具直播，IM聊天；
+<span class="hljs-bullet">6. </span>小工具成语正则搜索；
+<span class="hljs-bullet">7. </span>联系人的导入；
+<span class="hljs-bullet">8. </span>不同输入框类型测试;
+<span class="hljs-bullet">9. </span>Gif图片大小帧率处理
+<span class="hljs-bullet">10. </span>live photos转Gif导入；
+<span class="hljs-bullet">11. </span>gif图片/压缩包的导入；
+<span class="hljs-bullet">12. </span>url下载gif导入；
+<span class="hljs-bullet">13. </span>恢复到默认主题设置；
+<span class="hljs-bullet">14. </span>第三方App分享图片到表情的Share Extension;</code></pre></div> </section><section class="panel" id="project-abstract-section-5"> <p class="eyebrow">Section 5</p> <h2>部分API分享</h2> <div><h3 id="百度翻译api">百度翻译API</h3>
+
+<p><a href="http://api.fanyi.baidu.com/api/trans/product/desktop?req=developer">http://api.fanyi.baidu.com/api/trans/product/desktop?req=developer</a></p>
+
+
+
+<h3 id="网易云音乐分析">网易云音乐分析</h3>
+
+<p><strong>搜索歌曲</strong></p>
+
+
+
+<pre class="prettyprint"><code class=" hljs haml">curl --request POST \
+  -<span class="ruby">-url <span class="hljs-symbol">http:</span>/<span class="hljs-regexp">/music.163.com/api</span><span class="hljs-regexp">/search/get</span> \
+</span>  -<span class="ruby">-header <span class="hljs-string">'content-type: application/x-www-form-urlencoded'</span> \
+</span>  -<span class="ruby">-header <span class="hljs-string">'referer: http://music.163.com/'</span> \
+</span>  -<span class="ruby">-data <span class="hljs-string">'s=%E6%BC%94%E5%91%98&amp;type=1&amp;offset=0&amp;total=true&amp;limit=20'</span></span></code></pre>
+
+<p><strong>歌曲详情</strong></p>
+
+
+
+<pre class="prettyprint"><code class=" hljs haml">curl --request GET \
+  -<span class="ruby">-url <span class="hljs-string">'http://music.163.com/api/song/detail/?id=32507038&amp;ids=%5B32507038%5D'</span> \
+</span>  -<span class="ruby">-header <span class="hljs-string">'referer: http://music.163.com/'</span></span></code></pre>
+
+<p><strong>音乐文件下载地址</strong></p>
+
+
+
+<pre class="prettyprint"><code class=" hljs python"><span class="hljs-keyword">import</span> md5
+
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">encrypted_id</span><span class="hljs-params">(id)</span>:</span>
+    byte1 = bytearray(<span class="hljs-string">'3go8&amp;$8*3*3h0k(2)2'</span>)
+    byte2 = bytearray(id)
+    byte1_len = len(byte1)
+    <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> xrange(len(byte2)):
+        <span class="hljs-keyword">print</span> i,    <span class="hljs-comment"># print 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15</span>
+        byte2[i] = byte2[i]^byte1[i%byte1_len]
+    m = md5.new()
+    <span class="hljs-comment"># str2 = "".join(map(chr, byte2))</span>
+    m.update(str(byte2))
+    result = m.digest().encode(<span class="hljs-string">'base64'</span>)[:-<span class="hljs-number">1</span>]
+    <span class="hljs-keyword">print</span> result    <span class="hljs-comment"># print WddsKHFgZv5+uS8mXxREcA==</span>
+    result = result.replace(<span class="hljs-string">'/'</span>, <span class="hljs-string">'_'</span>)
+    result = result.replace(<span class="hljs-string">'+'</span>, <span class="hljs-string">'-'</span>)
+    <span class="hljs-keyword">return</span> result
+
+print(encrypted_id(<span class="hljs-string">'3233663700533995'</span>))     <span class="hljs-comment"># print WddsKHFgZv5-uS8mXxREcA==</span>
+
+<span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> xrange(<span class="hljs-number">10</span>):
+    <span class="hljs-keyword">print</span> i,
+
+<span class="hljs-keyword">print</span> <span class="hljs-string">'test\n'</span>[:-<span class="hljs-number">1</span>] <span class="hljs-comment"># delete last charater</span>
+
+a=range(<span class="hljs-number">10</span>)
+<span class="hljs-keyword">print</span> a         <span class="hljs-comment"># print [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]</span>
+<span class="hljs-keyword">print</span> a[:-<span class="hljs-number">1</span>]    <span class="hljs-comment"># print [0, 1, 2, 3, 4, 5, 6, 7, 8]</span></code></pre>
+
+
+
+<h4 id="参考">参考</h4>
+
+<p><strong>网易云音乐API分析</strong> <br>
+<a href="https://github.com/yanunon/NeteaseCloudMusic/wiki/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90API%E5%88%86%E6%9E%90"></a></p>
+
+<p><strong>网易云音乐的API</strong> <br>
+<a href="https://zhuanlan.zhihu.com/p/21326015">https://zhuanlan.zhihu.com/p/21326015</a></p>
+
+<p><strong>网易云音乐新版WebAPI分析</strong> <br>
+<a href="https://github.com/darknessomi/musicbox/wiki/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E6%96%B0%E7%89%88WebAPI%E5%88%86%E6%9E%90%E3%80%82">https://github.com/darknessomi/musicbox/wiki/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E6%96%B0%E7%89%88WebAPI%E5%88%86%E6%9E%90%E3%80%82</a></p>
+
+<p><strong>网易云音乐常用API浅析</strong> <br>
+<a href="http://moonlib.com/606.html">http://moonlib.com/606.html</a></p>
+
+<p><strong>网易云音乐API</strong> <br>
+<a href="http://www.jianshu.com/p/ab746499b920">http://www.jianshu.com/p/ab746499b920</a></p>
+
+<p><strong>网易云音乐api整理（神坑慎入）</strong> <br>
+<a href="http://qianzewei.com/2015/12/10/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90api%E6%95%B4%E7%90%86/">http://qianzewei.com/2015/12/10/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90api%E6%95%B4%E7%90%86/</a></p></div> </section><section class="panel" id="project-abstract-section-6"> <p class="eyebrow">Section 6</p> <h2>mac输入法相关资料</h2> <div><p><a href="https://github.com/openvanilla/openvanilla">OpenVanilla 輸入法套件</a></p>
+
+<p><a href="https://openvanilla.org/">OpenVanilla輸入法框架官网</a></p>
+
+<p><a href="https://developer.apple.com/reference/inputmethodkit">Input Method Kit Framework Reference</a></p>
+
+<p><a href="https://developer.apple.com/library/content/samplecode/NumberInput_IMKit_Sample/Introduction/Intro.html#//apple_ref/doc/uid/DTS40007466">NumberInput_IMKit_Sample</a></p>
+
+<p><a href="https://github.com/pkamb/NumberInput_IMKit_Sample"> Apple’s NumberInput sample code with each ‘step’ commit</a></p>
+
+<p><a href="https://developer.apple.com/search/?q=InputMethodKit">InputMethodKit reference</a></p>
+
+<p><a href="https://github.com/noraesae/kawa">A better input source switcher for OS X</a></p>
+
+<p><a href="https://github.com/rime/librime">Rime Input Method Engine, the core librar</a></p>
+
+<p><a href="http://blog.jjgod.org/2007/05/11/write-an-im-in-osx-now/">现在如何在 Mac OS X 中写一套输入法 (一)</a></p>
+
+<p><a href="https://support.apple.com/kb/PH18456?locale=zh_CN">OS X Yosemite: 创建和使用您自己的输入源</a></p></div> </section><section class="panel" id="project-abstract-section-7"> <p class="eyebrow">Section 7</p> <h2>其他</h2> <div><p><strong>Google Cloud Platform</strong> <br>
+<a href="https://cloud.google.com/appengine/docs/python/endpoints/consume_ios#adding_a_sign-in_dialog_to_your_ios_client">https://cloud.google.com/appengine/docs/python/endpoints/consume_ios#adding_a_sign-in_dialog_to_your_ios_client</a></p>
+
+<p><strong>百度汉语：</strong><a href="http://hanyu.baidu.com/">http://hanyu.baidu.com/</a></p>
+
+<p><strong>书法字典</strong></p>
+
+<p><a href="http://zd.shufa99.com">墨客书法在线字典</a></p>
+
+<p><a href="http://www.9610.com/zidian/">书法字典在线查询</a></p>
+
+<p><a href="http://m.shufa99.com/">墨客书法字典</a></p>
+
+<p><a href="http://www.shufa.com/zd/">中国书法网</a></p>
+
+<p><strong>中文字码转换</strong> <br>
+<a href="https://github.com/mahiuchun/zh-hk">中文码表查询</a></p>
+
+<p><strong>voice over</strong> <br>
+<a href="http://www.jianshu.com/p/c793477d021b">支持voice over</a></p>
+
+<p><strong>Markdown/网址撰写模式</strong> <br>
+Markdown撰写模式：<a href="https://github.com/mexiQQ/MXMarkdownKeyboard">MXMarkdownKeyboard</a></p>
+
+<p><strong>推送测试</strong> <br>
+使用工具NWPusher测试更方便：<a href="https://github.com/noodlewerk/NWPusher">https://github.com/noodlewerk/NWPusher</a></p>
+
+
+
+<pre class="prettyprint"><code class="language-Json hljs json">{
+  "<span class="hljs-attribute">aps</span>": <span class="hljs-value">{
+    "<span class="hljs-attribute">alert</span>": <span class="hljs-value"><span class="hljs-string">"维维维维维维维维维维维维维维维维"</span></span>,
+    "<span class="hljs-attribute">badge</span>": <span class="hljs-value"><span class="hljs-number">1</span></span>,
+    "<span class="hljs-attribute">sound</span>": <span class="hljs-value"><span class="hljs-string">"default"</span>
+  </span>}</span>,
+  "<span class="hljs-attribute">url</span>":<span class="hljs-value"><span class="hljs-string">"LWInputMethod://home.https?url=https%3a%2f%2fm.baidu.com"</span>
+</span>}</code></pre></div></div> </section> </div>   <!-- Cloudflare Web Analytics --><script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "866f8ba5c4fe4d35b272d16c160762b0"}'></script><!-- End Cloudflare Web Analytics --> </body></html>
