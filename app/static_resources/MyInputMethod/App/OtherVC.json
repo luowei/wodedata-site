@@ -1,0 +1,55 @@
+{
+  "data": [
+    {
+      "万能小工具":[
+        {"软笔画板":"LWInputMethod://other.app_drawboard"},
+        {"生成二维码":"LWInputMethod://other.app_genqrcode"},
+        {"扫描二维码":"LWInputMethod://other.app_scanqrcode"},
+        {"拼音转换":"LWInputMethod://other.app_convertpinyin"},
+        {"翻译":"LWInputMethod://other.app_translate"},
+        {"Markdown编辑器":"LWInputMethod://other.app_mdediter"},
+        {"书法字典":"LWInputMethod://other.http?url=http%3a%2f%2fzd.shufa99.com"},
+        {"百度汉语":"LWInputMethod://other.http?url=http%3a%2f%2fhanyu.baidu.com"},
+        {"快捷入口":"LWInputMethod://other.http?url=http%3a%2f%2fapp.wodedata.com%2fwonderkibod%2fhtml%2fshort_endpoint.html"},
+        {"AppNative跳转测试":"LWInputMethod://other.http?url=http%3a%2f%2fapp.wodedata.com%2fwonderkibod%2fhtml%2ftest.html"}
+
+      ]
+    },
+    {
+      "五笔画笔打字教程":[
+        {"五笔字根表":"LWInputMethod://other.http?url=http%3a%2f%2fapp.wodedata.com%2fwonderkibod%2fhtml%2fwubi_code_tabel.html"},
+        {"五笔简码及打字方法":"LWInputMethod://other.markdown?url=https%3a%2f%2fcoding.net%2fu%2fluow%2fp%2fMyInputMethod_Documents%2fgit%2fraw%2fmaster%2fwubi_code_brief.md"},
+        {"笔画输入指南":"LWInputMethod://other.markdown?url=https%3a%2f%2fcoding.net%2fu%2fluow%2fp%2fMyInputMethod_Documents%2fgit%2fraw%2fmaster%2fbihua_input_tutorial.md"}
+      ]
+    },
+    {
+      "设计开发相关":[
+        {"万能输入法的架构设计":"LWInputMethod://other.markdown?url=https%3a%2f%2fcoding.net%2fu%2fluow%2fp%2fMyInputMethod_Documents%2fgit%2fraw%2fmaster%2fproject_design.md"},
+        {"万能输入法设计与技术要点":"LWInputMethod://other.markdown?url=https%3a%2f%2fcoding.net%2fu%2fluow%2fp%2fMyInputMethod_Documents%2fgit%2fraw%2fmaster%2fproject_abstract.md"},
+        {"部分开放源码":"LWInputMethod://other.https?url=https%3a%2f%2fgithub.com%2fluowei%2fMyInputMethod"}
+      ]
+    },
+    {
+      "常见问题":[
+        {"(null)-万能输入法 问题":"LWInputMethod://other.https?url=http%3a%2f%2fapp.wodedata.com%2fwonderkibod%2fhtml%2fqa_null.html"},
+        {"某些App里键盘弹不起来":"LWInputMethod://other.https?url=http%3a%2f%2fapp.wodedata.com%2fwonderkibod%2fhtml%2fqa_upfaild.html"}
+        ]
+    },
+    {
+      "关于":[
+        {"万能输入法官网":"LWInputMethod://other.http?url=http%3a%2f%2fwodedata.com"},
+        {"官方公众号(唯为分享)":"LWInputMethod://other.http?url=http%3a%2f%2fapp.wodedata.com%2fwonderkibod%2fhtml%2fwechat_public.html"},
+        {"开发者微博":"LWInputMethod://other.http?url=https%3a%2f%2fm.weibo.cn%2fp%2f1005051745746500"}
+      ]
+    }
+  ],
+  "mobileconfig": {
+    "drawboard": "http://app.wodedata.com/wonderkibod/mobileconfig/add_drawboard.php",
+    "genqrcode": "http://app.wodedata.com/wonderkibod/mobileconfig/add_genqrcode.php",
+    "scanqrcode": "http://app.wodedata.com/wonderkibod/mobileconfig/add_scanqrcode.php",
+    "convertpinyin": "http://app.wodedata.com/wonderkibod/mobileconfig/add_convertpinyin.php",
+    "translate": "http://app.wodedata.com/wonderkibod/mobileconfig/add_translate.php",
+    "shufa": "http://app.wodedata.com/wonderkibod/mobileconfig/add_shufa.php",
+    "hanyu": "http://app.wodedata.com/wonderkibod/mobileconfig/add_hanyu.php"
+  }
+}

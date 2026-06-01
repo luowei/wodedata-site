@@ -1,0 +1,25 @@
+{
+  "data": [
+    {
+      "APP内购买": [
+        {
+          "icon": "purchase",
+          "title": "购买",
+          "actionName": "buyAction"
+        },
+        {
+          "icon": "restore",
+          "title": "恢复购买",
+          "actionName": "restoreAction"
+        }
+      ]
+    }
+  ],
+  "purchaseConfig":{
+    "needPurchase":true,
+    "hidePurchaseEntry": false,
+    "needKeyboardPurchase":true,
+    "tryRatingTriggerCount":30,
+    "ratedTriggerCount":100
+  }
+}

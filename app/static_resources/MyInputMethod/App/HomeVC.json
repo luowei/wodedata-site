@@ -1,0 +1,63 @@
+{
+  "data": [
+    {
+      "开始使用万能输入法":[
+        {"添加万能输入法":"LWInputMethod://home.markdown?url=https%3a%2f%2fcoding.net%2fu%2fluow%2fp%2fMyInputMethod_Documents%2fgit%2fraw%2fmaster%2fadd_wonderkibod.md"},
+        {"开启完全访问权限":"LWInputMethod://home.markdown?url=https%3a%2f%2fcoding.net%2fu%2fluow%2fp%2fMyInputMethod_Documents%2fgit%2fraw%2fmaster%2fenable_wonderkibod.md"},
+        {"切换到万能输入法":"LWInputMethod://home.markdown?url=https%3a%2f%2fcoding.net%2fu%2fluow%2fp%2fMyInputMethod_Documents%2fgit%2fraw%2fmaster%2fswitch_wonderkibod.md"},
+        {"功能模块概览":"LWInputMethod://home.markdown?url=https%3a%2f%2fcoding.net%2fu%2fluow%2fp%2fMyInputMethod_Documents%2fgit%2fraw%2fmaster%2fwonderkibod_overview.md"}
+      ]
+    },
+    {
+      "特色功能": [
+        {"快捷的粘贴输入":"LWInputMethod://home.markdown?url=https%3a%2f%2fcoding.net%2fu%2fluow%2fp%2fMyInputMethod_Documents%2fgit%2fraw%2fmaster%2fwonderkibod_pasteboard.md"},
+        {"任意GIF斗图收藏和下载":"LWInputMethod://home.markdown?url=https%3a%2f%2fcoding.net%2fu%2fluow%2fp%2fMyInputMethod_Documents%2fgit%2fraw%2fmaster%2fwonderkibod_gif.md"},
+        {"套路聊天":"LWInputMethod://home.markdown?url=https%3a%2f%2fcoding.net%2fu%2fluow%2fp%2fMyInputMethod_Documents%2fgit%2fraw%2fmaster%2fwonderkibod_skillchat.md"},
+        {"密文聊天":"LWInputMethod://home.markdown?url=https%3a%2f%2fcoding.net%2fu%2fluow%2fp%2fMyInputMethod_Documents%2fgit%2fraw%2fmaster%2fwonderkibod_encryptchat.md"},
+        {"快捷翻译、拼音、五笔及笔顺查询助手":"LWInputMethod://home.markdown?url=https%3a%2f%2fcoding.net%2fu%2fluow%2fp%2fMyInputMethod_Documents%2fgit%2fraw%2fmaster%2fwonderkibod_translate.md"},
+        {"打开网址及分享网页":"LWInputMethod://home.markdown?url=https%3a%2f%2fcoding.net%2fu%2fluow%2fp%2fMyInputMethod_Documents%2fgit%2fraw%2fmaster%2fwonderkibod_websearch.md"},
+        {"涂鸭画板的高级技巧":"LWInputMethod://home.markdown?url=https%3a%2f%2fcoding.net%2fu%2fluow%2fp%2fMyInputMethod_Documents%2fgit%2fraw%2fmaster%2fwonderkibod_drawboard.md"},
+        {"自定义键盘皮肤":"LWInputMethod://home.markdown?url=https%3a%2f%2fcoding.net%2fu%2fluow%2fp%2fMyInputMethod_Documents%2fgit%2fraw%2fmaster%2fwonderkibod_skin.md"},
+        {"自定义组件样式":"LWInputMethod://home.markdown?url=https%3a%2f%2fcoding.net%2fu%2fluow%2fp%2fMyInputMethod_Documents%2fgit%2fraw%2fmaster%2fwonderkibod_style.md"},
+        {"繁简转换、火星文字":"LWInputMethod://home.markdown?url=https%3a%2f%2fcoding.net%2fu%2fluow%2fp%2fMyInputMethod_Documents%2fgit%2fraw%2fmaster%2fwonderkibod_marsword.md"},
+        {"截图分享":"LWInputMethod://home.markdown?url=https%3a%2f%2fcoding.net%2fu%2fluow%2fp%2fMyInputMethod_Documents%2fgit%2fraw%2fmaster%2fwonderkibod_snapshot.md"}
+      ]
+    },
+    {
+      "基本功能": [
+        {"拼音输入":"LWInputMethod://home.image?url=http%3a%2f%2fordfckdt8.bkt.clouddn.com%2fgif%2fwonderkibod_pinyin.gif"},
+        {"五笔输入":"LWInputMethod://home.image?url=http%3a%2f%2fordfckdt8.bkt.clouddn.com%2fgif%2fwonderkibod_wubi.gif"},
+        {"笔画输入":"LWInputMethod://home.image?url=http%3a%2f%2fordfckdt8.bkt.clouddn.com%2fgif%2fwonderkibod_bihua.gif"},
+        {"手写输入":"LWInputMethod://home.image?url=http%3a%2f%2fordfckdt8.bkt.clouddn.com%2fgif%2fwonderkibod_handwritting.gif"},
+        {"搜索":"LWInputMethod://home.image?url=http%3a%2f%2fordfckdt8.bkt.clouddn.com%2fgif%2fwonderkibod_search.gif"},
+        {"联系人搜索":"LWInputMethod://home.image?url=http%3a%2f%2fordfckdt8.bkt.clouddn.com%2fgif%2fwonderkibod_searchcontacts.gif"},
+        {"图片搜索":"LWInputMethod://home.image?url=http%3a%2f%2fordfckdt8.bkt.clouddn.com%2fgif%2fwonderkibod_searchimages.gif"},
+        {"GIF搜索":"LWInputMethod://home.image?url=http%3a%2f%2fordfckdt8.bkt.clouddn.com%2fgif%2fwonderkibod_searchgif.gif"},
+        {"Web搜索":"LWInputMethod://home.image?url=http%3a%2f%2fordfckdt8.bkt.clouddn.com%2fgif%2fwonderkibod_websearch.gif"},
+        {"涂鸭画板":"LWInputMethod://home.image?url=http%3a%2f%2fordfckdt8.bkt.clouddn.com%2fgif%2fwonderkibod_draw.gif"},
+        {"翻译":"LWInputMethod://home.image?url=http%3a%2f%2fordfckdt8.bkt.clouddn.com%2fgif%2fwonderkibod_translate.gif"},
+        {"拼音转换":"LWInputMethod://home.image?url=http%3a%2f%2fordfckdt8.bkt.clouddn.com%2fgif%2fwonderkibod_convertpinyin.gif"},
+        {"快捷短语":"LWInputMethod://home.image?url=http%3a%2f%2fordfckdt8.bkt.clouddn.com%2fgif%2fwonderkibod_phrase.gif"},
+        {"Emoji":"LWInputMethod://home.image?url=http%3a%2f%2fordfckdt8.bkt.clouddn.com%2fgif%2fwonderkibod_emoji.gif"},
+        {"斗图":"LWInputMethod://home.image?url=http%3a%2f%2fordfckdt8.bkt.clouddn.com%2fgif%2fwonderkibod_animation.gif"},
+        {"颜文字":"LWInputMethod://home.image?url=http%3a%2f%2fordfckdt8.bkt.clouddn.com%2fgif%2fwonderkibod_emoticon.gif"},
+        {"光标滑动":"LWInputMethod://home.image?url=http%3a%2f%2fordfckdt8.bkt.clouddn.com%2fgif%2fwonderkibod_cursor.gif"}
+      ]
+    },
+    {
+      "骨灰功能":[
+        {"音乐搜索":"LWInputMethod://home.image?url=http%3a%2f%2fordfckdt8.bkt.clouddn.com%2fgif%2fwonderkibod_searchmusic.gif"},
+        {"高级设置":"LWInputMethod://home.image?url=http%3a%2f%2fordfckdt8.bkt.clouddn.com%2fgif%2fwonderkibod_advancesetting.gif"}
+      ]
+    }
+  ],
+  "mobileconfig": {
+    "drawboard": "http://app.wodedata.com/wonderkibod/mobileconfig/add_drawboard.php",
+    "genqrcode": "http://app.wodedata.com/wonderkibod/mobileconfig/add_genqrcode.php",
+    "scanqrcode": "http://app.wodedata.com/wonderkibod/mobileconfig/add_scanqrcode.php",
+    "convertpinyin": "http://app.wodedata.com/wonderkibod/mobileconfig/add_convertpinyin.php",
+    "translate": "http://app.wodedata.com/wonderkibod/mobileconfig/add_translate.php",
+    "shufa": "http://app.wodedata.com/wonderkibod/mobileconfig/add_shufa.php",
+    "hanyu": "http://app.wodedata.com/wonderkibod/mobileconfig/add_hanyu.php"
+  }
+}

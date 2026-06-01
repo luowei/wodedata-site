@@ -1,0 +1,63 @@
+{
+  "data": [
+    {
+      "购买":[
+        {"购买去除所有广告与限制||purchase":"WBInputMethod://other.appin_purchase"}
+      ]
+    },
+    {
+      "指南 - 使用五笔输入法":[
+        {"如何添加五笔输入法||tianjia":"WBInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2Fwbinput%2Fh5%2F01_add_keyboard"},
+        {"如何开启完全访问权限||kaiqi":"WBInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2Fwbinput%2Fh5%2F02_open_fullaccess"},
+        {"有用的小技巧||gonnen":"WBInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2Fwbinput%2Fh5%2F03_useful_operations"}
+      ]
+    },
+    {
+      "五笔基础": [
+        {"五笔概述||itemicon_0":"WBInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2Fwbinput%2Fh5%2Fbasic%2F01"},
+        {"汉字笔画||itemicon_1":"WBInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2Fwbinput%2Fh5%2Fbasic%2F02"},
+        {"字根概述||itemicon_2":"WBInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2Fwbinput%2Fh5%2Fbasic%2F03"},
+        {"字根结构关系||itemicon_3":"WBInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2Fwbinput%2Fh5%2Fbasic%2F04"},
+        {"字形结构关系||itemicon_4":"WBInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2Fwbinput%2Fh5%2Fbasic%2F05"},
+        {"汉字拆字原则||itemicon_5":"WBInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2Fwbinput%2Fh5%2Fbasic%2F06"},
+        {"五笔字形的编码规则||itemicon_6":"WBInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2Fwbinput%2Fh5%2Fbasic%2F07"},
+        {"识别码||itemicon_7":"WBInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2Fwbinput%2Fh5%2Fbasic%2F08"},
+        {"容错码||itemicon_8":"WBInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2Fwbinput%2Fh5%2Fbasic%2F09"},
+        {"简码||itemicon_9":"WBInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2Fwbinput%2Fh5%2Fbasic%2F10"},
+        {"词汇编码||itemicon_10":"WBInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2Fwbinput%2Fh5%2Fbasic%2F11"}
+      ]
+    },
+    {
+      "字根键盘图": [
+        {"86版五笔字根键盘表||itemicon_0":"WBInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2Fwbinput%2Fh5%2Fkeyboard%2F01"},
+        {"98版五笔字根键盘表||itemicon_1":"WBInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2Fwbinput%2Fh5%2Fkeyboard%2F02"},
+        {"新世纪版五笔字根图||itemicon_2":"WBInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2Fwbinput%2Fh5%2Fkeyboard%2F03"},
+        {"新世纪版与86版变动对比表||itemicon_3":"WBInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2Fwbinput%2Fh5%2Fkeyboard%2F04"},
+        {"86五笔键位字根分解表||itemicon_4":"WBInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2Fwbinput%2Fh5%2Fkeyboard%2F04"}
+      ]
+    },
+    {
+      "86版五笔学习": [
+        {"五笔字根表||itemicon_5":"WBInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2Fwbinput%2Fh5%2F86wubi%2F01"},
+        {"简明教程||itemicon_6":"WBInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2Fwbinput%2Fh5%2F86wubi%2F02"},
+        {"五笔简码||itemicon_7":"WBInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2Fwbinput%2Fh5%2F86wubi%2F03"},
+        {"速成诀窍||itemicon_8":"WBInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2Fwbinput%2Fh5%2F86wubi%2F04"}
+      ]
+    },
+    {
+      "98版五笔学习": [
+        {"五笔字根表||itemicon_9":"WBInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2Fwbinput%2Fh5%2F98wubi%2F01"},
+        {"简明教程||itemicon_10":"WBInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2Fwbinput%2Fh5%2F98wubi%2F02"},
+        {"五笔简码||itemicon_1":"WBInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2Fwbinput%2Fh5%2F98wubi%2F03"},
+        {"速成诀窍||itemicon_2":"WBInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2Fwbinput%2Fh5%2F98wubi%2F04"}
+      ]
+    },
+
+    {
+      "关于":[
+        {"官网":"WBInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2Fmyapp%2Fwbinput"},
+        {"微博":"WBInputMethod://other.http?url=https%3a%2f%2fm.weibo.cn%2fp%2f1005051745746500"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,569 @@
+{
+  "code": 1,
+  "msg": "",
+  "data": [
+    {
+      "title": null,
+      "type": "TextIcon",
+      "itemList": [
+        {
+          "type": "TextIcon",
+          "text": "百度",
+          "iconLink": "http://7xrtnb.com1.z0.glb.clouddn.com/mybrowser_icons/baidu.png",
+          "sourceLink": "https://baidu.com"
+        },
+        {
+          "type": "TextIcon",
+          "text": "腾讯",
+          "iconLink": "http://7xrtnb.com1.z0.glb.clouddn.com/mybrowser_icons/tencent.png",
+          "sourceLink": "https://v.qq.com"
+        },
+        {
+          "type": "TextIcon",
+          "text": "微博",
+          "iconLink": "http://7xrtnb.com1.z0.glb.clouddn.com/mybrowser_icons/weibo.png",
+          "sourceLink": "https://weibo.com"
+        },
+        {
+          "type": "TextIcon",
+          "text": "优酷",
+          "iconLink": "http://7xrtnb.com1.z0.glb.clouddn.com/mybrowser_icons/youku.png",
+          "sourceLink": "http://youku.com/"
+        },
+        {
+          "type": "TextIcon",
+          "text": "58",
+          "iconLink": "http://7xrtnb.com1.z0.glb.clouddn.com/mybrowser_icons/58.png",
+          "sourceLink": "http://58.com"
+        },
+        {
+          "type": "TextIcon",
+          "text": "淘宝",
+          "iconLink": "http://7xrtnb.com1.z0.glb.clouddn.com/mybrowser_icons/taobao.png",
+          "sourceLink": "https://taobao.com"
+        },
+        {
+          "type": "TextIcon",
+          "text": "京东",
+          "iconLink": "http://7xrtnb.com1.z0.glb.clouddn.com/mybrowser_icons/jd.png",
+          "sourceLink": "https://jd.com"
+        },
+        {
+          "type": "TextIcon",
+          "text": "网易",
+          "iconLink": "http://7xrtnb.com1.z0.glb.clouddn.com/mybrowser_icons/163.png",
+          "sourceLink": "http://music.163.com"
+        },
+        {
+          "type": "TextIcon",
+          "text": "苏宁",
+          "iconLink": "http://7xrtnb.com1.z0.glb.clouddn.com/mybrowser_icons/suning.png",
+          "sourceLink": "https://suning.com"
+        },
+        {
+          "type": "TextIcon",
+          "text": "导航",
+          "iconLink": "http://7xrtnb.com1.z0.glb.clouddn.com/mybrowser_icons/websites.png",
+          "sourceLink": "https://2345.com"
+        }
+      ]
+    },
+    {
+      "title": null,
+      "type": "Search",
+      "itemList": [
+        {
+          "type": "Search",
+          "searchLink": "baidu"
+        }
+      ]
+    },
+    {
+      "title": null,
+      "type": "TextIcon",
+      "itemList": [
+        {
+          "type": "TextIcon",
+          "text": "Youtube",
+          "iconLink": "http://7xrtnb.com1.z0.glb.clouddn.com/mybrowser_icons/aboard/youtube.png",
+          "sourceLink": "http://youtube.com/"
+        },
+        {
+          "type": "TextIcon",
+          "text": "Facebook",
+          "iconLink": "http://7xrtnb.com1.z0.glb.clouddn.com/mybrowser_icons/aboard/facebook.png",
+          "sourceLink": "http://facebook.com/"
+        },
+        {
+          "type": "TextIcon",
+          "text": "Twitter",
+          "iconLink": "http://7xrtnb.com1.z0.glb.clouddn.com/mybrowser_icons/aboard/twitter.png",
+          "sourceLink": "http://twitter.com/"
+        },
+        {
+          "type": "TextIcon",
+          "text": "Tumblr",
+          "iconLink": "http://7xrtnb.com1.z0.glb.clouddn.com/mybrowser_icons/aboard/tumblr.png",
+          "sourceLink": "https://www.tumblr.com/"
+        },
+        {
+          "type": "TextIcon",
+          "text": "Pinterest",
+          "iconLink": "http://7xrtnb.com1.z0.glb.clouddn.com/mybrowser_icons/aboard/pinterest.png",
+          "sourceLink": "http://www.pinterest.com/"
+        }
+      ]
+    },
+    {"type":"WebServer","itemList":[{"type":"WebServer","text":"Web Server"}]},
+    {"type":"FileBrowser","itemList":[{"type":"FileBrowser","text":"File Browser"}]},
+    {
+      "title": "精选",
+      "type": "Text",
+      "itemList": [
+        {
+          "type": "Text",
+          "text": "中国政府",
+          "sourceLink": "http://www.gov.cn"
+        },
+        {
+          "type": "Text",
+          "text": "东方财富",
+          "sourceLink": "http://eastmoney.com"
+        },
+        {
+          "type": "Text",
+          "text": "汽车之家",
+          "sourceLink": "http://www.autohome.com.cn"
+        },
+        {
+          "type": "Text",
+          "text": "携程旅行",
+          "sourceLink": "http://ctrip.com"
+        },
+        {
+          "type": "Text",
+          "text": "今日头条",
+          "sourceLink": "http://toutiao.com"
+        },
+        {
+          "type": "Text",
+          "text": "大众点评",
+          "sourceLink": "http://dianping.com"
+        },
+        {
+          "type": "Text",
+          "text": "简书",
+          "sourceLink": "http://jianshu.com"
+        },
+        {
+          "type": "Text",
+          "text": "百度汉语",
+          "sourceLink": "http://hanyu.baidu.com/"
+        }
+      ]
+    },
+    {
+      "title": "技术与艺术",
+      "type": "Text",
+      "itemList": [
+        {
+          "type": "Text",
+          "text": "Github",
+          "sourceLink": "http://github.com/"
+        },
+        {
+          "type": "Text",
+          "text": "CSDN",
+          "sourceLink": "http://m.csdn.net/"
+        },
+        {
+          "type": "Text",
+          "text": "InfoQ",
+          "sourceLink": "http://www.infoq.com/cn/"
+        },
+        {
+          "type": "Text",
+          "text": "LintCode",
+          "sourceLink": "http://www.lintcode.com/zh-cn/"
+        },
+        {
+          "type": "Text",
+          "text": "StackFlow",
+          "sourceLink": "https://stackoverflow.com/"
+        },
+        {
+          "type": "Text",
+          "text": "Flaticon",
+          "sourceLink": "https://www.flaticon.com"
+        },
+        {
+          "type": "Text",
+          "text": "Iconfinder",
+          "sourceLink": "https://www.iconfinder.com"
+        },
+        {
+          "type": "Text",
+          "text": "Sketch",
+          "sourceLink": "https://www.sketchappsources.com/"
+        },
+        {
+          "type": "Text",
+          "text": "Pexels",
+          "sourceLink": "https://www.pexels.com/"
+        },
+        {
+          "type": "Text",
+          "text": "Instagram",
+          "sourceLink": "https://www.instagram.com/"
+        },
+        {
+          "type": "Text",
+          "text": "Pinterest",
+          "sourceLink": "https://www.pinterest.com/"
+        },
+        {
+          "type": "Text",
+          "text": "Vimeo",
+          "sourceLink": "https://vimeo.com/"
+        }
+      ]
+    },
+    {
+      "title": "知识社区",
+      "type": "Text",
+      "itemList": [
+        {
+          "type": "Text",
+          "text": "果壳网",
+          "sourceLink": "http://guokr.com/"
+        },
+        {
+          "type": "Text",
+          "text": "钛媒体",
+          "sourceLink": "http://tmtpost.com/"
+        },
+        {
+          "type": "Text",
+          "text": "松鼠会",
+          "sourceLink": "http://songshuhui.net/"
+        },
+        {
+          "type": "Text",
+          "text": "知乎",
+          "sourceLink": "https://zhihu.com"
+        },
+        {
+          "type": "Text",
+          "text": "豆瓣",
+          "sourceLink": "https://douban.com/"
+        },
+        {
+          "type": "Text",
+          "text": "贴吧",
+          "sourceLink": "https://tieba.baidu.com"
+        },
+        {
+          "type": "Text",
+          "text": "360doc",
+          "sourceLink": "http://360doc.cn/"
+        },
+        {
+          "type": "Text",
+          "text": "Coursera",
+          "sourceLink": "https://www.coursera.org/"
+        }
+      ]
+    },
+    {
+      "title": "国外",
+      "type": "Text",
+      "itemList": [
+        {
+          "type": "Text",
+          "text": "Yahoo",
+          "sourceLink": "http://yahoo.com/"
+        },
+        {
+          "type": "Text",
+          "text": "Wiki",
+          "sourceLink": "http://zh.wikipedia.org/"
+        },
+        {
+          "type": "Text",
+          "text": "Amazon",
+          "sourceLink": "http://amazon.com/"
+        },
+        {
+          "type": "Text",
+          "text": "Linkedin",
+          "sourceLink": "http://www.linkedin.com/"
+        },
+        {
+          "type": "Text",
+          "text": "eBay",
+          "sourceLink": "http://ebay.com/"
+        },
+        {
+          "type": "Text",
+          "text": "Apple",
+          "sourceLink": "http://www.apple.com/"
+        },
+        {
+          "type": "Text",
+          "text": "IMDB",
+          "sourceLink": "http://www.imdb.com/"
+        },
+        {
+          "type": "Text",
+          "text": "Yelp",
+          "sourceLink": "http://www.yelp.com/"
+        },
+        {
+          "type": "Text",
+          "text": "Paypal",
+          "sourceLink": "https://www.paypal.com/"
+        },
+        {
+          "type": "Text",
+          "text": "Vogue",
+          "sourceLink": "http://www.vogue.com.cn/"
+        }
+      ]
+    },
+    {
+      "title": "娱乐及游戏",
+      "type": "Text",
+      "itemList": [
+        {
+          "type": "Text",
+          "text": "优酷网",
+          "sourceLink": "http://youku.com/"
+        },
+        {
+          "type": "Text",
+          "text": "腾讯视频",
+          "sourceLink": "http://v.qq.com/"
+        },
+        {
+          "type": "Text",
+          "text": "爱奇艺",
+          "sourceLink": "http://iqiyi.com/"
+        },
+        {
+          "type": "Text",
+          "text": "YY直播",
+          "sourceLink": "http://yy.com/"
+        },
+        {
+          "type": "Text",
+          "text": "斗鱼直播",
+          "sourceLink": "https://m.douyu.com/"
+        },
+        {
+          "type": "Text",
+          "text": "QQ音乐",
+          "sourceLink": "http://y.qq.com/"
+        },
+        {
+          "type": "Text",
+          "text": "虾米音乐",
+          "sourceLink": "http://xiami.com/"
+        },
+        {
+          "type": "Text",
+          "text": "网易云音乐",
+          "sourceLink": "http://music.163.com/"
+        },
+        {
+          "type": "Text",
+          "text": "虎扑体育",
+          "sourceLink": "http://hupu.com/"
+        },
+        {
+          "type": "Text",
+          "text": "网易体育",
+          "sourceLink": "http://sports.163.com/"
+        },
+        {
+          "type": "Text",
+          "text": "7k7k",
+          "sourceLink": "http://7k7k.com"
+        },
+        {
+          "type": "Text",
+          "text": "4399",
+          "sourceLink": "http://4399.com"
+        }
+      ]
+    },
+    {
+      "title": "新闻及阅读",
+      "type": "Text",
+      "itemList": [
+        {
+          "type": "Text",
+          "text": "新浪新闻",
+          "sourceLink": "http://news.sina.com.cn"
+        },
+        {
+          "type": "Text",
+          "text": "新华网",
+          "sourceLink": "http://xinhuanet.com"
+        },
+        {
+          "type": "Text",
+          "text": "凤凰网",
+          "sourceLink": "http://ifeng.com"
+        },
+        {
+          "type": "Text",
+          "text": "澎湃新闻",
+          "sourceLink": "http://thepaper.cn"
+        },
+        {
+          "type": "Text",
+          "text": "参考消息",
+          "sourceLink": "http://cankaoxiaoxi.com"
+        },
+        {
+          "type": "Text",
+          "text": "日经中文",
+          "sourceLink": "http://cn.nikkei.com"
+        },
+        {
+          "type": "Text",
+          "text": "联合早报",
+          "sourceLink": "http://zaobao.com"
+        },
+        {
+          "type": "Text",
+          "text": "南方周末",
+          "sourceLink": "http://infzm.com"
+        },
+        {
+          "type": "Text",
+          "text": "起点中文",
+          "sourceLink": "http://qidian.com"
+        },
+        {
+          "type": "Text",
+          "text": "小说阅读",
+          "sourceLink": "https://readnovel.com/"
+        },
+        {
+          "type": "Text",
+          "text": "腾讯文学",
+          "sourceLink": "http://book.qq.com/"
+        },
+        {
+          "type": "Text",
+          "text": "百度文库",
+          "sourceLink": "https://wenku.baidu.com/"
+        }
+      ]
+    },
+    {
+      "title": "财经房产汽车手机",
+      "type": "Text",
+      "itemList": [
+        {
+          "type": "Text",
+          "text": "东方财富",
+          "sourceLink": "http://eastmoney.com/"
+        },
+        {
+          "type": "Text",
+          "text": "证券之星",
+          "sourceLink": "http://www.stockstar.com/"
+        },
+        {
+          "type": "Text",
+          "text": "天天基金",
+          "sourceLink": "http://fund.eastmoney.com/"
+        },
+        {
+          "type": "Text",
+          "text": "中经在线",
+          "sourceLink": "http://blog.3g.cnfol.com/"
+        },
+        {
+          "type": "Text",
+          "text": "福布斯",
+          "sourceLink": "http://3g.forbeschina.com/"
+        },
+        {
+          "type": "Text",
+          "text": "FT中文",
+          "sourceLink": "http://www.ftchinese.com/"
+        },
+        {
+          "type": "Text",
+          "text": "华尔街",
+          "sourceLink": "http://cn.wsj.com"
+        },
+        {
+          "type": "Text",
+          "text": "房天下",
+          "sourceLink": "http://www.fang.com/"
+        },
+        {
+          "type": "Text",
+          "text": "安居客",
+          "sourceLink": "http://www.anjuke.com/"
+        },
+        {
+          "type": "Text",
+          "text": "链家",
+          "sourceLink": "http://www.lianjia.com/"
+        },
+        {
+          "type": "Text",
+          "text": "汽车之家",
+          "sourceLink": "http://www.autohome.com.cn/"
+        },
+        {
+          "type": "Text",
+          "text": "淘车网",
+          "sourceLink": "http://taoche.com/"
+        },
+        {
+          "type": "Text",
+          "text": "ZOL手机",
+          "sourceLink": "http://mobile.zol.com.cn/"
+        },
+        {
+          "type": "Text",
+          "text": "ZOL手机",
+          "sourceLink": "http://mobile.zol.com.cn/"
+        },
+        {
+          "type": "Text",
+          "text": "威锋网",
+          "sourceLink": "http://www.feng.com/"
+        },
+        {
+          "type": "Text",
+          "text": "少数派",
+          "sourceLink": "https://sspai.com/"
+        }
+      ]
+    },
+    {
+      "title": "其他",
+      "type": "Text",
+      "itemList": [
+        {
+          "type": "Text",
+          "text": "wodedata",
+          "sourceLink": "http://wodedata.com"
+        },
+        {
+          "type": "Text",
+          "text": "开发者Blog",
+          "sourceLink": "http://luowei.github.com/"
+        }
+      ]
+    }
+
+  ]
+}

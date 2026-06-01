@@ -1,0 +1,65 @@
+{
+  "data": [
+    {
+      "购买":[
+        {"APP内购买,去除限制与广告||purchase":"LWInputMethod://other.appin_purchase"}
+      ]
+    },
+    {
+      "指南 - 基本功能": [
+        {"拼音输入||itemicon_0":"LWInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2fwonderkibod%2fh5%2fbasic%2f01_pinyin_input"},
+        {"五笔输入||itemicon_1":"LWInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2fwonderkibod%2fh5%2fbasic%2f02_wubi_input"},
+        {"笔画输入||itemicon_2":"LWInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2fwonderkibod%2fh5%2fbasic%2f03_bihua_input"},
+        {"手写输入||itemicon_3":"LWInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2fwonderkibod%2fh5%2fbasic%2f04_handwritting"},
+        {"搜索||itemicon_4":"LWInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2fwonderkibod%2fh5%2fbasic%2f05_base_search"},
+        {"联系人搜索||itemicon_5":"LWInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2fwonderkibod%2fh5%2fbasic%2f06_contacts_search"},
+        {"图片搜索||itemicon_6":"LWInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2fwonderkibod%2fh5%2fbasic%2f07_image_search"},
+        {"GIF搜索||itemicon_7":"LWInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2fwonderkibod%2fh5%2fbasic%2f08_gif_search"},
+        {"Web搜索||itemicon_8":"LWInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2fwonderkibod%2fh5%2fbasic%2f09_web_search"},
+        {"涂鸭画板||itemicon_9":"LWInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2fwonderkibod%2fh5%2fbasic%2f10_drawboard"},
+        {"翻译||itemicon_10":"LWInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2fwonderkibod%2fh5%2fbasic%2f11_translating"},
+        {"拼音转换||itemicon_11":"LWInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2fwonderkibod%2fh5%2fbasic%2f12_pinyin_convert"},
+        {"快捷短语||itemicon_0":"LWInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2fwonderkibod%2fh5%2fbasic%2f13_quick_phrasal"},
+        {"Emoji表情||itemicon_1":"LWInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2fwonderkibod%2fh5%2fbasic%2f14_emoji"},
+        {"斗图||itemicon_2":"LWInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2fwonderkibod%2fh5%2fbasic%2f15_gif_pk"},
+        {"颜文字||itemicon_3":"LWInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2fwonderkibod%2fh5%2fbasic%2f16_emoticon"},
+        {"光标滑动||itemicon_4":"LWInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2fwonderkibod%2fh5%2fbasic%2f17_cursor_move"}
+      ]
+    },
+    {
+      "教程 - 五笔画笔打字":[
+        {"五笔字根表||itemicon_5":"LWInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2fwonderkibod%2fh5%2ftips%2f01_wubi_stem_table"},
+        {"五笔字根键盘图||itemicon_1":"LWInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2fwonderkibod%2fh5%2ftips%2f02_wubi_stem_graph"},
+        {"五笔简码||itemicon_3":"LWInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2fwonderkibod%2fh5%2ftips%2f03_wubi_brevity_code"},
+        {"五笔打字技巧||itemicon_6":"LWInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2fwonderkibod%2fh5%2ftips%2f04_wubi_typing_skill"},
+        {"笔画打字技巧||itemicon_7":"LWInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2fwonderkibod%2fh5%2ftips%2f05_bihua_typing_skill"}
+      ]
+    },
+    {
+      "设计开发相关":[
+        {"万能输入法的架构设计||itemicon_8":"LWInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2fwonderkibod%2fh5%2ftips%2f01_wubi_stem_table"},
+        {"万能输入法的技术参考||itemicon_9":"LWInputMethod://other.http?url=https%3A%2F%2Fwodedata.com%2Fapp%2fwonderkibod%2fh5%2ftips%2f02_key_tech"},
+        {"万能输入法的开放接口||itemicon_10":"LWInputMethod://other.https?url=https%3A%2F%2Fwodedata.com%2Fapp%2fwonderkibod%2fh5%2ftips%2f03_open_interface"}
+      ]
+    },
+    {
+      "常见问题":[
+        {"万能输入法键盘选项消失||itemicon_1":"LWInputMethod://other.https?url=https%3A%2F%2Fwodedata.com%2Fapp%2fwonderkibod%2fh5%2ftips%2f04_kb_problem_null"},
+        {"万能输入法键盘弹不起来||itemicon_2":"LWInputMethod://other.https?url=https%3A%2F%2Fwodedata.com%2Fapp%2fwonderkibod%2fh5%2ftips%2f05_kb_problem_faildup"}
+      ]
+    },
+    {
+      "关于":[
+        {"官网":"LWInputMethod://other.http?url=http%3a%2f%2fwodedata.com"},
+        {"微博":"LWInputMethod://other.http?url=https%3a%2f%2fm.weibo.cn%2fp%2f1005051745746500"}
+      ]
+    }
+  ],
+  "mobileconfig": {
+    "drawboard": "http://app.wodedata.com/wonderkibod/mobileconfig/add_drawboard.php",
+    "convertpinyin": "http://app.wodedata.com/wonderkibod/mobileconfig/add_convertpinyin.php",
+    "translate": "http://app.wodedata.com/wonderkibod/mobileconfig/add_translate.php",
+    "shufa": "http://app.wodedata.com/wonderkibod/mobileconfig/add_shufa.php",
+    "hanyu": "http://app.wodedata.com/wonderkibod/mobileconfig/add_hanyu.php"
+  }
+}
